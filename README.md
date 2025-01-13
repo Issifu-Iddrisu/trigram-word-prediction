@@ -1,7 +1,7 @@
 # Trigram-Based Word Prediction using Neural Networks
 
 ## Introduction
-Neural network architectures can produce powerful computational models for natural language processing. Here, we consider one particular model for examining sequences of words. The task is to predict the fourth word in a sequence given the preceding trigram, e.g., `"Neural nets are"`, fourth word: `"awesome"`. A database of articles is prepared to store sample trigrams restricted to a vocabulary size of 250 words. The file `assign2_data2.h5` contains training samples for input and output (`trainX`, `trainY`), for validation (`valX`, `valY`), and for testing (`testX`, `testY`). Using these samples, the following network should be trained via backpropagation:
+Neural network architectures can produce powerful computational models for natural language processing. Here, we consider one particular model for examining sequences of words. The task is to predict the fourth word in a sequence given the preceding trigram, e.g., `"Neural nets are"`, fourth word: `"awesome"`. A database of articles is prepared to store sample trigrams restricted to a vocabulary size of 250 words. The file `data.h5` contains training samples for input and output (`trainX`, `trainY`), for validation (`valX`, `valY`), and for testing (`testX`, `testY`). Using these samples, the following network should be trained via backpropagation:
 
 ![Network Architecture for Trigram-Based Word Prediction](net_architecture.png)
 
